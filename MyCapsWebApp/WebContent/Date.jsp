@@ -10,10 +10,11 @@
 <body>
 	<h1>The Date is :<%=new Date() %></h1>
 	
-	<%--<jsp:include page="/firstServ">
+	<%-- <jsp:include page="/firstServ">
 	<jsp:param value="mustaq" name="fname"/>
 	<jsp:param value="mohammed" name="lname"/>
-	</jsp:include> --%>
+	</jsp:include>
+	 --%>
 	
 	<%-- <jsp:forward page="/firstServ">
 	<jsp:param value="mustaq" name="fname"/>

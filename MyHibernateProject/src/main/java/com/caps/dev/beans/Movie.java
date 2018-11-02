@@ -3,10 +3,15 @@ package com.caps.dev.beans;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 @Entity
 @Table(name="movies_info")
+@NamedQueries({
+	@NamedQuery(name="getAllMovies",query="SELECT m FROM Movie m")
+	})
 public class Movie {
 	@Id @Column(name="movie_id")
 	private int movieId;
